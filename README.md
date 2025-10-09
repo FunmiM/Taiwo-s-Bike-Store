@@ -20,11 +20,12 @@ riders*price as Revenue,
 riders*(price -COGS) as profit
 from CTE a
 left join cost_table b
+on a.yr = b.yr
+
 
 ![Taiwo's Bike Store Dashboard](https://github.com/user-attachments/assets/81cf5a62-e4f9-420a-830a-50db67be7640)
 
 
 
 
-on a.yr = b.yr
 
