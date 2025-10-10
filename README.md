@@ -1,4 +1,4 @@
-Taiwo's Bike Share Pricing Analysis
+# Taiwo-s-Bike-Store
 
 Tools: SQL, Power BI
 Domain: Business Intelligence / Pricing Strategy
@@ -99,7 +99,7 @@ The final Power BI dashboard provided clear insights into user behavior, seasona
 
 
 
-# Taiwo-s-Bike-Store
+
 SQL project analyzing multi-year bike share data. Used CTEs to combine datasets, joined cost data, and calculated revenue &amp; profit. Explored seasonal, hourly, and rider-type trends to provide business insights.
 with CTE as (
 SELECT * FROM bike_share_yr_0
